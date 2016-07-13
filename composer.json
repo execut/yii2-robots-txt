@@ -1,0 +1,23 @@
+{
+  "name": "execut/yii2-robots-txt",
+  "version": "0.1.0",
+  "description": "Import data module for yii2",
+  "keywords": ["yii2", "import", "activeRecord"],
+  "homepage": "https://github.com/execut/yii2-import",
+  "type": "yii2-extension",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "eXeCUT"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "execut\\robotsTxt\\": ""
+    }
+  }
+}
