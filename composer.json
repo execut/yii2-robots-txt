@@ -1,6 +1,6 @@
 {
   "name": "execut/yii2-robots-txt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Module for generate robots.txt file by url rules",
   "keywords": ["yii2", "robots.txt"],
   "homepage": "https://github.com/execut/yii2-robots-txt",
