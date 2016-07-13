@@ -1,4 +1,4 @@
-# Yii2 module for render robots.txt
+# Yii2 module for generate robots.txt file by url rules
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
