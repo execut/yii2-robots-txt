@@ -72,7 +72,7 @@ Add to application config folowing rules:
 ];
 ```
 
-After configuration is opened by /robots.txt link
+After configuration robots.txt file is opened by /robots.txt link
 
 ## License
 
