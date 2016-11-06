@@ -14,21 +14,6 @@ use \yii;
 class WebController extends \yii\web\Controller
 {
     /**
-     * @inheritdoc
-     */
-    public function behaviors()
-    {
-        return [
-            'pageCache' => [
-                'class' => 'yii\filters\PageCache',
-                'only' => ['index'],
-                'duration' => $this->module->cacheExpire,
-                'variations' => [Yii::$app->request->get('id')],
-            ],
-        ];
-    }
-
-    /**
      * Action for sitemap/default/robot-txt
      *
      * @access public
