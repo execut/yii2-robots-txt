@@ -52,6 +52,10 @@ class Generator extends Component
         foreach ($this->userAgent as $userAgent => $value) {
             $result .= "User-agent: $userAgent\n";
             foreach ($value as $param => $urls) {
+                if (is_string($urls)) {
+                    $urls = [$urls];
+                }
+
                 $isWithScheme = false;
                 if ($param == 'Sitemap') {
                     $urls = [$urls];
