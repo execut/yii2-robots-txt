@@ -13,7 +13,8 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "yiisoft/yii2": "@dev"
+    "yiisoft/yii2": "@dev",
+    "phpunit/phpunit": "5.5.*"
   },
   "autoload": {
     "psr-4": {

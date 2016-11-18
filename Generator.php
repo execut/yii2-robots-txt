@@ -11,11 +11,11 @@ namespace execut\robotsTxt;
 
 use yii\base\Component;
 use yii\helpers\Url;
-use yii;
+use Yii;
 
 class Generator extends Component
 {
-    /** @var sting */
+    /** @var string */
     public $host = '';
     /** @var string */
     public $sitemap = '';
