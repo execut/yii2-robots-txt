@@ -13,7 +13,7 @@ use yii\base\Component;
 use yii\helpers\Url;
 use Yii;
 
-class Generator// extends Component
+class Generator extends Component
 {
     /** @var string */
     public $host = '';
