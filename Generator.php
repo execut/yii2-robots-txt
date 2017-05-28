@@ -45,7 +45,12 @@ class Generator extends Component
         $result = "";
         $params = [];
         $params['Host'] = $this->host;
-        $params['Sitemap'] = $this->sitemap;
+        $siteMap = $this->sitemap;
+        if (is_array($siteMap)) {
+            $siteMap = Url::to($siteMap, true);
+        }
+
+        $params['Sitemap'] = $siteMap;
         foreach (array_filter($params) as $key => $value) {
             $result .= "$key: $value\n";
         }
